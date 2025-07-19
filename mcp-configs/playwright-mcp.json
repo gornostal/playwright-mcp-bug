@@ -1,0 +1,16 @@
+{
+  "browser": {
+    "isolated": false,
+    "launchOptions": {
+      "channel": "chrome",
+      "headless": true,
+      "executablePath": "/usr/bin/google-chrome"
+    },
+    "contextOptions": {
+      "viewport": { "width": 1200, "height": 1100 },
+      "timeout": 10e3
+    }
+  },
+  "outputDir": "/tmp/playwright-mcp-output",
+  "imageResponses": "allow"
+}
